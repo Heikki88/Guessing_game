@@ -7,7 +7,7 @@ public class App {
         String answer = "Emma";
         String yritys = "";
         int aKerta = 0;
-
+        // Toinen muutos, while loop pyörii kunnes yritys vasta answeria.
         while (yritys != answer) {
 
             System.out.println("Guess my name (type stop to exit)");
