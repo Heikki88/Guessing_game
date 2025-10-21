@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner in = new Scanner(System.in);
-
+        // Ensimmäinen muutos, tässä määritellään muuttujat.
         String answer = "Emma";
         String yritys = "";
         int aKerta = 0;
