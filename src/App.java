@@ -13,7 +13,7 @@ public class App {
             System.out.println("Guess my name (type stop to exit)");
             yritys = in.nextLine();
             aKerta++;
-
+            // Kolmas muutos, if lauseet laskevat saatiinko oikein ja arvausten määrän.
             if (yritys.equals("stop")) {
                 System.out.println("You guessed " + (aKerta - 1) + " times.");
                 break;
